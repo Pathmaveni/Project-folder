@@ -1,0 +1,111 @@
+body{
+    height:100vh;
+    width:100wh;
+    /* background-color: aqua; */
+}
+div{
+    height: 70px;
+    width: 100%;
+    /* background-color:tomato; */
+    position: relative;
+    left:0px;
+    top:6px;
+}
+#row li{
+   display: inline;
+   margin-left: 0px;
+}
+#row li:nth-child(4){
+   margin-left: 5px;
+}
+#row li:nth-child(5){
+   margin-left:355px;
+   position: relative;
+   bottom: 30px;
+}
+#row li:nth-child(6){
+   margin-left:5px;
+   position: relative;
+   bottom: 30px;
+}
+#row li:nth-child(7){
+   margin-left:6px;
+}
+#one{
+    height: 600px;
+    width: 245px;
+    /* background-color: darkolivegreen; */
+    position: fixed;
+    top: 23%;
+}
+#one ul li a{
+    display:block;
+    line-height: 11px;
+    text-decoration: none;
+}
+#two{
+     height: 250%;
+     width: 79%;
+     /* background-color:brown; */
+     position: absolute;
+     margin-left: 20%;
+     top: 15%;
+ } 
+ #three{
+    height: 70vh;
+    width: 230px;
+    /* background-color: chocolate; */
+    position: relative;
+    left: 83%;
+    top:38%;
+ }
+ .four{
+    height: 430px;
+    width: 100px;
+    background-color: white;
+    position:absolute;
+    right: 56%;
+    top:60%;
+    color: blue;
+ }
+ .five{
+    height: 430px;
+    width: 125px;
+    background-color:white;
+    position:absolute;
+    left: 45%;
+    top:60%;
+}
+ #phara{
+    font-size:14px;
+    color: blue;
+ }
+ .ph{
+    font-size:13px;
+ }
+ p{
+    font-size: large;
+ }
+ #two ul li a{
+    text-decoration: none;   
+ }
+ i{
+   display: block;
+   margin-left: 25px;
+ }
+ li{
+    display: inline;
+    margin-left: 15px;
+ } 
+ li:nth-child(3){
+    margin-left: 600px;
+ }
+span{
+   color: blue;
+}
+#align{
+   width: 830px;
+   position: absolute;
+   left: 20%;
+   top:35%;
+}

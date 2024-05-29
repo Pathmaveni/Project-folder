@@ -1,0 +1,97 @@
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url(stars.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.sun{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    background-color: orange;
+    box-shadow: 0 0 30px white;
+    border-radius: 50%;
+}
+.sun img{
+    position: absolute;
+}
+.line1{
+    height: 330px;
+    width: 330px;
+    position: absolute;
+    border-right: 2px solid white;
+    border-radius: 50%;
+    animation: anime1;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+}
+.line1 .earth{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    left: 165px;
+    top: 300px;
+    background-color: aqua;
+    box-shadow: 0 0 10px white;
+    border-radius: 50%;
+}
+.line2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 272px;
+    left: 135px;
+    border-right: 2px solid white;
+    border-radius: 50%;
+    animation: anime1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.line2 .moon{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 55px;
+    top: 85px;
+    background-color: silver;
+    box-shadow: 0 0 10px white;
+    border-radius: 50%;
+}
+ @keyframes anime1{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

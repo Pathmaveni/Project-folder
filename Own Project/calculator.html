@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            height: 100vh;
+            width: 100vh;
+            background-color: cadetblue;
+        }
+        div{
+           height: 470px;
+           width:255px;
+           position: absolute;
+           left: 540px;
+           top:70px;
+           background-color:gray;
+           border: 2px solid white;
+           padding: 10px;
+           padding-right: 10px;
+        }
+        #form{
+            padding: 20px;
+        }
+        #form input{
+            padding: 15px;
+        }
+        #one{
+            height: 218px;
+            width: 10px;
+            position: absolute;
+            background-color:goldenrod;
+            left:200px;
+            top:214px;
+        }
+        #one input{
+            height: 205px;
+            width: 6%;
+            position: relative;
+            top: ;
+            right: 11px;
+        }
+    </style>
+</head>
+<body>
+        <div>
+        <form id="form" action="">
+           <h1 style="text-align: center;">Welcome to Calculator</h1>
+           <input id="result" style="background-color:cornflowerblue; " type="text"><br><br>
+           <input type="button" style="background-color:cornflowerblue; color: white; border: 1px solid white;"value="7" onclick="form.result.value=form.result.value+7">
+           <input type="button" style="background-color:cornflowerblue; color: white; border: 1px solid white;"value="8" onclick="form.result.value=form.result.value+8">
+           <input type="button" style="background-color:cornflowerblue; color: white; border: 1px solid white;"value="9" onclick="form.result.value=form.result.value+9">
+           <input type="button" style="background-color:skyblue; color: black; border: 1px solid white;"value="+" onclick="form.result.value=form.result.value+'+'">
+           <br><br>
+           <input type="button" style="background-color:cornflowerblue; color: white; border: 1px solid white;"value="4" onclick="form.result.value=form.result.value+4">
+           <input type="button" style="background-color:cornflowerblue; color: white; border: 1px solid white;"value="5" onclick="form.result.value=form.result.value+5">
+           <input type="button" style="background-color:cornflowerblue; color: white; border: 1px solid white;"value="6" onclick="form.result.value=form.result.value+6">
+           <input type="button" style="background-color:skyblue; color: black; border: 1px solid white;"value="-" onclick="form.result.value=form.result.value+'-'">
+           <br><br>
+           <input type="button" style="background-color:cornflowerblue; color: white; border: 1px solid white;"value="1" onclick="form.result.value=form.result.value+1">
+           <input type="button" style="background-color:cornflowerblue; color: white; border: 1px solid white;"value="2" onclick="form.result.value=form.result.value+2">
+           <input type="button" style="background-color:cornflowerblue; color: white; border: 1px solid white;"value="3" onclick="form.result.value=form.result.value+3">
+           <input type="button" style="background-color:skyblue; color: black; border: 1px solid white;"value="*" onclick="form.result.value=form.result.value+'*'">
+           <br><br>
+           <input type="button" style="background-color:cornflowerblue; color: white; border: 1px solid white;" value="C" onclick="form.result.value=' '">
+           <input type="button" style="background-color:cornflowerblue; color: white; border: 1px solid white;"value="0" onclick="form.result.value=form.result.value+0">
+           <input type="button" style="background-color:skyblue; color: black; border: 1px solid white;"value="%" onclick="form.result.value=form.result.value+'%'">
+           <input type="button" style="background-color:skyblue; color: black; border: 1px solid white;"value="/" onclick="form.result.value=form.result.value+'/'">
+           <br><br>  
+        <div id="one">
+           <input type="button" style="background-color:goldenrod;border: 1px solid goldenrod;"value="=" onclick="form.result.value=eval(form.result.value)">
+        </div>        
+    </div>
+</form>
+</body>
+</html>
